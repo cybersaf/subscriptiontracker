@@ -10,3 +10,9 @@ def display_subscriptions():
     print("\nCurrent Subscriptions:")
     for sub in subscriptions:
         print(f"Name: {sub['name']}, Price: ${sub['price']}")
+
+while True:
+    print("\nSubscription Tracker")
+    print("1. Add a new subscription")
+    print("2. Display all subscriptions")
+    print("3. Exit")
